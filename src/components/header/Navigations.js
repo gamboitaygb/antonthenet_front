@@ -31,9 +31,13 @@ class Navigation extends Component {
                             <a className="nav-link disabled" href="#">Disabled</a>
                         </li>
                     </ul>
-                    <ul className="navbar-nav ml-auto">
-                        <li><input type="search" /></li>
-                        <li><i className="fab fa-github fa-2x"></i></li>
+                    <ul className="navbar-nav ml-auto social">
+                        <li>
+                             <input className="bnt-search" type="text" name="search" placeholder="Search.."/>
+                        </li>
+                        <li><i className="fab fa-github fa-1x"></i></li>
+                        <li><i className="fab fa-twitter fa-1x"></i></li>
+                        <li><i className="fab fa-facebook fa-1x"></i></li>
                     </ul>
                     
                 </div>
