@@ -6,12 +6,14 @@ import './App.css';
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import Header from './components/header/header'
+import Body from './components/body/body';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid">
         <Header/>
+        <Body/>
     </div>
   );
 }

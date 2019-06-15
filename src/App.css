@@ -1,4 +1,6 @@
-
+a{
+  color:rgb(51, 51, 51);
+}
 .btn-default{
   background: rgb(51, 51, 51);
   color: white;
@@ -9,6 +11,31 @@
   border-color:rgb(51, 51, 51);
   color:rgb(51, 51, 51);
   background: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+    color: #49505754;
+  
+}
+
+.card{
+  margin: 10px 5px 0 5px;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.tab-content > .active {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-1x{
+  font-size: 1.5rem
+}
+
+.nav-tabs .nav-link{
+  border-radius: 0px;
 }
 
 
